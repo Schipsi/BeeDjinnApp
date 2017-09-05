@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:drawable="@drawable/chute1"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute2"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute3"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute4"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute5"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute6"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute7"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute8"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute9"
+        android:duration="50" />
+    <item android:drawable="@drawable/chute10"
+        android:duration="50" />
+</animation-list>

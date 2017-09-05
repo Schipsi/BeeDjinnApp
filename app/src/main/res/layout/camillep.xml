@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".Camillep"
+    android:background="@drawable/fond"
+    android:id="@+id/camillep">
+
+    <TextView
+        android:textColor="@color/jaune"
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="21sp"
+        android:text="Camille Petit"/>
+
+    <TextView
+        android:textColor="@color/jaune"
+        android:id="@+id/stitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textSize="18sp"
+        android:text="Respo Flyers"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/camillep"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:textColor="@color/jaune"
+        android:id="@+id/texte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:text="Dein Syria per speciosam interpatet diffusa planitiem. hanc nobilitat Antiochia, mundo cognita civitas, cui non certaverit alia advecticiis ita adfluere copiis et internis, et Laodicia et Apamia itidemque Seleucia iam inde a primis auspiciis florentissimae."/>
+
+    <Button android:id="@+id/toMenu" android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:text="Retour au menu"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"/>
+
+    <ImageButton
+        android:id="@+id/toAlizee"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="900dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/flecheg"/>
+
+    <ImageButton
+        android:id="@+id/toMarie"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="900dp"
+        android:layout_marginLeft="280dp"
+        android:src="@drawable/fleched"/>
+
+</RelativeLayout>

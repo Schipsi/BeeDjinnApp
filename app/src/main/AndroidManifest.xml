@@ -1,0 +1,185 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="google.com.beedjinn">
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@drawable/logo"
+        android:label="Bee Djinn"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="google.com.beedjinn.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="google.com.beedjinn.Tuto"
+            android:screenOrientation="reverseLandscape"></activity>
+        <activity android:name="google.com.beedjinn.Laliste" />
+        <activity android:name="google.com.beedjinn.JeuAc"
+            android:screenOrientation="reverseLandscape"></activity>
+        <activity android:name="google.com.beedjinn.Allos" />
+        <activity android:name="google.com.beedjinn.Partenariats" />
+        <activity android:name="google.com.beedjinn.JeuMain"
+            android:screenOrientation="reverseLandscape"></activity>
+        <activity android:name=".Presentation"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Fantine"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Pierre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Anissa"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Mathieu"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Florian"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Damien"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Thibaut"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Emile"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Amandine"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Hugoj"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Hugor"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Sylvain"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Pault"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Antoine"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Anthony"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Jules"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Adrien"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Thomas"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Alizee"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Camillep"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Marie"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Eleonore"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Camillet"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Victort"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Alice"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Victorg"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Ana"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Bel"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Paulb"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Lara"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Les Chamojitos</string>
+
+    <string name="title_activity_vue2">Vue2</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="s1">Transmettez mes amitiés aux lyonnais!</string>
+    <string name="s2">Transmettez mes amitiés aux lyonnais!</string>
+    <string name="s3">Transmettez mes amitiés aux lyonnais!</string>
+    <string name="s4">Transmettez mes amitiés aux lyonnais!</string>
+    <string name="s5">Transmettez mes amitiés aux lyonnais!</string>
+    <string name="s6">Transmettez mes amitiés aux lyonnais!</string>
+
+</resources>
